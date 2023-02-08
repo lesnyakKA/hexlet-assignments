@@ -1,9 +1,6 @@
 package exercise;
 
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
-
-//import static sun.net.www.http.KeepAliveCache.result;
 
 class ReversedSequence implements CharSequence {
     private String text;
@@ -46,7 +43,6 @@ class ReversedSequence implements CharSequence {
     @Override
     public String toString() {
        String result = new StringBuilder(text).reverse().toString();
-
         return result;
     }
 }
